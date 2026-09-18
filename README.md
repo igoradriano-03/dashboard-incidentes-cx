@@ -1,9 +1,16 @@
 # Dashboard — Sistema de Gestão de Incidentes e Inteligência Operacional
 
-Projeto acadêmico desenvolvido para a disciplina de Análise e Desenvolvimento
-de Sistemas (ADS), construído com qualidade técnica de uma aplicação real:
-executável localmente, com banco de dados normalizado, API REST autenticada
-e interface web funcional.
+Este projeto surgiu a partir de uma necessidade que vivenciei na minha rotina profissional em Customer Experience.
+
+No dia a dia, eu lidava com diferentes demandas e incidentes operacionais que precisavam ser acompanhados, mas não havia uma ferramenta específica para centralizar essas informações e facilitar a análise dos casos. Como alternativa inicial, comecei a organizar os registros em uma planilha pessoal, criando uma forma própria de acompanhar ocorrências, status e informações importantes.
+
+Com o tempo, percebi que a ideia poderia ir além de uma simples planilha. A necessidade de organizar os dados, acompanhar os incidentes de forma mais estruturada e transformar essas informações em indicadores e visualizações me levou a desenvolver uma aplicação própria.
+
+A partir dessa experiência, transformei a ideia inicial em um projeto full-stack, utilizando conhecimentos adquiridos durante a graduação em Análise e Desenvolvimento de Sistemas.
+
+A aplicação permite registrar, acompanhar e analisar incidentes operacionais, com frontend web, backend, API REST, banco de dados PostgreSQL, autenticação de usuários e visualização de dados.
+
+> **Os dados utilizados na aplicação são fictícios e foram criados exclusivamente para fins acadêmicos e de demonstração.**
 
 ## Sumário
 
@@ -236,9 +243,6 @@ Criados pelo script `npm run seed` (ou apenas o administrador, por
 | Papel | E-mail | Senha |
 |---|---|---|
 | Administrador | `admin@cxintelligence.com` | `admin123` |
-| Analista | `fernanda.souza@cxintelligence.com` | `analista123` |
-| Analista | `marcos.lima@cxintelligence.com` | `analista123` |
-| Analista | `juliana.alves@cxintelligence.com` | `analista123` |
 
 > O MVP não implementa um sistema de permissões complexo — o campo
 > `perfil` (Administrador/Analista) existe no modelo de dados, mas hoje
