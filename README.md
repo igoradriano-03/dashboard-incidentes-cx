@@ -10,11 +10,7 @@ A partir dessa experiência, transformei a ideia inicial em um projeto full-stac
 
 A aplicação permite registrar, acompanhar e analisar incidentes operacionais, com frontend web, backend, API REST, banco de dados PostgreSQL, autenticação de usuários e visualização de dados.
 
-<<<<<<< HEAD
-> *Os dados utilizados na aplicação são fictícios e foram criados exclusivamente para fins acadêmicos e de demonstração.*
-=======
 > **Os dados utilizados na aplicação são fictícios e foram criados exclusivamente para fins acadêmicos e de demonstração.**
->>>>>>> 1afb3e6e6abaa3619a2d1c854602a56a07e846f7
 
 ## Sumário
 
@@ -247,14 +243,8 @@ Criados pelo script `npm run seed` (ou apenas o administrador, por
 ### Usuários de Demonstração
 
 | Papel | E-mail | Senha |
-<<<<<<< HEAD
-| :--- | :--- | :--- |
-| **Administrador** | `admin@cxintelligence.com` | `admin123` |
-
-=======
 |---|---|---|
 | Administrador | `admin@cxintelligence.com` | `admin123` |
->>>>>>> 1afb3e6e6abaa3619a2d1c854602a56a07e846f7
 
 > O MVP não implementa um sistema de permissões complexo — o campo
 > `perfil` (Administrador/Analista) existe no modelo de dados, mas hoje
