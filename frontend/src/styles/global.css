@@ -1,0 +1,21 @@
+:root {
+  /* Nova identidade visual: Azul Tecnológico e Ciano */
+  --cor-azul-escuro: #0B2545;   /* base: sidebar, cabeçalhos, textos de destaque */
+  --cor-azul-medio: #13315C;    /* elementos secundários, hover de itens escuros */
+  --cor-ciano: #00C2FF;         /* destaque: botões principais, indicadores ativos */
+  --cor-fundo: #EAF4FA;         /* fundo geral, off-white com leve tom azulado */
+  --cor-branco: #FFFFFF;
+  --cor-cinza-claro: #F3F3F3;
+  --cor-texto: #0B2545;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
